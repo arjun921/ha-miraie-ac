@@ -33,7 +33,7 @@ const generateConfigPayload = device => {
     fan_mode_stat_t: stateTopic,
     fan_mode_stat_tpl: '{{ value_json.acfs }}',
 
-    modes: ['auto', 'cool', 'dry', 'fan_only', 'off'],
+    modes: ['auto', 'cool', 'heat', 'dry', 'fan_only', 'off'],
     fan_modes: ['auto', 'quiet', 'low', 'medium', 'high'],
 
     dev: {

@@ -54,6 +54,8 @@ const getAction = state => {
       return 'drying';
     case 'fan':
       return 'fan';
+    case 'heat':
+      return 'heating';
   }
 
   return 'idle';
